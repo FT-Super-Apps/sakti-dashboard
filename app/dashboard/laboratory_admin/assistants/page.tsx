@@ -1,6 +1,6 @@
 import { Suspense } from "react"
-import { LabAssistantsManagement } from "@/components/laboratory/admin/assistants/lab-assistants-management"
-import { LabAssistantsPageSkeleton } from "@/components/laboratory/admin/assistants/lab-assistants-page-skeleton"
+import { LabAssistantsManagement } from "@/fitur/laboratorium/laboratory/admin/assistants/lab-assistants-management"
+import { LabAssistantsPageSkeleton } from "@/fitur/laboratorium/laboratory/admin/assistants/lab-assistants-page-skeleton"
 
 export default function LabAssistantsPage() {
   return (

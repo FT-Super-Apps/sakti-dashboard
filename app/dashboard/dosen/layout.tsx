@@ -1,8 +1,8 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/utilitas/ui/toaster"
 import { DosenSubRoleProvider } from "@/context/dosen-subrole-context"
-import DosenLayoutContent from "@/components/dosen/dosen-layout-content"
+import DosenLayoutContent from "@/fitur/dosen/dosen-layout-content"
 
 export const metadata: Metadata = {
   title: "Dosen Dashboard | SINTEKMu",

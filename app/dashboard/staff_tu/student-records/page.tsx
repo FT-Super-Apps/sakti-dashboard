@@ -1,7 +1,7 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/utilitas/ui/card"
 import { Search, Filter, Download, User } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
 
 export default function StudentRecords() {
   return (

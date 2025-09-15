@@ -1,4 +1,4 @@
-import { AikKomfrenDashboard } from "@/components/staff_tu/aik-komfren/dashboard"
+import { AikKomfrenDashboard } from "@/fitur/administrasi/staff-tata-usaha/aik-komfren/dashboard"
 
 export default function AikKomfrenPage() {
   return <AikKomfrenDashboard />

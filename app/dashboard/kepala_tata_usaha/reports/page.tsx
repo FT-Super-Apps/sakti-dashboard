@@ -1,6 +1,6 @@
 "use client"
 
-import KepalaTataUsahaReports from "@/components/kepala-tata-usaha/reports-dashboard"
+import KepalaTataUsahaReports from "@/fitur/administrasi/kepala-tata-usaha/reports-dashboard"
 
 export default function ReportsPage() {
   return <KepalaTataUsahaReports />

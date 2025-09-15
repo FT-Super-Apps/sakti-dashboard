@@ -1,12 +1,12 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/utilitas/ui/tabs"
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/utilitas/ui/table"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Badge } from "@/utilitas/ui/badge"
 import {
   Dialog,
   DialogContent,
@@ -15,9 +15,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Textarea } from "@/components/ui/textarea"
+} from "@/utilitas/ui/dialog"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/utilitas/ui/select"
+import { Textarea } from "@/utilitas/ui/textarea"
 import {
   Clock,
   CheckCircle2,

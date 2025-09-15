@@ -1,4 +1,4 @@
-import { ViceDean3Dashboard } from "@/components/dekan/vice-dean-3/dashboard"
+import { ViceDean3Dashboard } from "@/fitur/dekan/vice-dean-3/dashboard"
 
 export default function ViceDean3Page() {
   return (

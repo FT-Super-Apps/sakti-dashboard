@@ -1,8 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { CorrespondenceProdiDashboard } from "@/components/correspondence/correspondence-prodi-dashboard"
-import { Skeleton } from "@/components/ui/skeleton"
+import { CorrespondenceProdiDashboard } from "@/fitur/korespondensi/correspondence-prodi-dashboard"
+import { Skeleton } from "@/utilitas/ui/skeleton"
 
 export default function ProdiCorrespondencePage() {
   const [isLoading, setIsLoading] = useState(true)

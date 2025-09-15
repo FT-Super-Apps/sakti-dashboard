@@ -1,6 +1,6 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Badge } from "@/utilitas/ui/badge"
 import Link from "next/link"
 import { Award, BookOpen, GraduationCap, Briefcase, Calendar, Users, ArrowRight } from "lucide-react"
 

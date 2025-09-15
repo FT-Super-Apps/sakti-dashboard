@@ -1,11 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Card, CardContent, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Badge } from "@/utilitas/ui/badge"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/utilitas/ui/select"
 import {
   Award,
   Sparkles,
@@ -17,9 +17,9 @@ import {
   Grid3x3,
   List
 } from "lucide-react"
-import CanvasCertificate from "@/components/certificates/canvas-certificate"
-import CertificateDownload from "@/components/certificates/certificate-download"
-import CertificatePreview from "@/components/certificates/certificate-preview"
+import CanvasCertificate from "@/fitur/sertifikat/certificates/canvas-certificate"
+import CertificateDownload from "@/fitur/sertifikat/certificates/certificate-download"
+import CertificatePreview from "@/fitur/sertifikat/certificates/certificate-preview"
 
 // Certificate templates dengan data yang lebih lengkap
 const certificateTemplates = [

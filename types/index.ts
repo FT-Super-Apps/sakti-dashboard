@@ -1,0 +1,21 @@
+// Export semua type definitions untuk kemudahan import
+export * from './role'
+export * from './book'
+export * from './correspondence'
+export * from './correspondence-draft'
+export * from './exam'
+export * from './exam-schedule'
+export * from './internship'
+export * from './kkp'
+export * from './kkp-location'
+export * from './payment'
+export * from './non-regular-payment'
+export * from './non-regular-student'
+export * from './outstanding-student'
+export * from './thesis'
+
+// Feature-specific types
+export * from './ujian'
+export * from './kkp-prodi'
+export * from './laboratorium-asisten'
+export * from './laboratorium-praktikum'

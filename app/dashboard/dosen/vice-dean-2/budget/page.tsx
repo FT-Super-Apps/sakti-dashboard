@@ -1,4 +1,4 @@
-import { BudgetManagement } from "@/components/dekan/vice-dean-2/budget-management"
+import { BudgetManagement } from "@/fitur/dekan/vice-dean-2/budget-management"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {

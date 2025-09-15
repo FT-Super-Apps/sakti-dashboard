@@ -5,8 +5,8 @@ import "./globals.css"
 import { RoleProvider } from "@/context/role-context"
 import { AuthProvider } from "@/context/auth-context"
 import { NotificationProvider } from "@/context/notification-context"
-import { I18nProvider } from "@/components/providers/i18n-provider"
-import { Toaster } from "@/components/ui/toaster"
+import { I18nProvider } from "@/penyedia/providers/i18n-provider"
+import { Toaster } from "@/utilitas/ui/toaster"
 
 const inter = Inter({ subsets: ["latin"] })
 

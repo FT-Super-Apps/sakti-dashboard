@@ -1,4 +1,4 @@
-import KkpLocationsDashboard from "@/components/kkp/prodi/kkp-locations-dashboard"
+import KkpLocationsDashboard from "@/fitur/kkp/prodi/kkp-locations-dashboard"
 
 export default function KkpLocationsPage() {
   return <KkpLocationsDashboard />

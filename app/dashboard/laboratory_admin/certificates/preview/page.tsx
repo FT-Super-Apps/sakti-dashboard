@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Badge } from "@/utilitas/ui/badge"
 import {
   Download,
   ArrowLeft,
@@ -15,9 +15,9 @@ import {
   Layout
 } from "lucide-react"
 import { useRouter } from "next/navigation"
-import CanvasCertificate from "@/components/certificates/canvas-certificate"
-import CertificatePreview from "@/components/certificates/certificate-preview"
-import CertificateDownload from "@/components/certificates/certificate-download"
+import CanvasCertificate from "@/fitur/sertifikat/certificates/canvas-certificate"
+import CertificatePreview from "@/fitur/sertifikat/certificates/certificate-preview"
+import CertificateDownload from "@/fitur/sertifikat/certificates/certificate-download"
 
 // Sample data untuk setiap template
 const certificateSamples = [

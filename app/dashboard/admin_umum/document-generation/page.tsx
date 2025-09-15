@@ -1,4 +1,4 @@
-import DocumentGeneration from "@/components/admin-umum/document-generation"
+import DocumentGeneration from "@/fitur/administrasi/admin-umum/document-generation"
 
 export default function AdminUmumDocumentGenerationPage() {
   return (

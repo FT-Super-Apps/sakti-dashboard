@@ -1,4 +1,4 @@
-import { ExamRegistrationDashboard } from "@/components/exam/student/exam-registration-dashboard"
+import { ExamRegistrationDashboard } from "@/fitur/ujian/student/exam-registration-dashboard"
 
 export default function ExamRegistrationPage() {
   return <ExamRegistrationDashboard />

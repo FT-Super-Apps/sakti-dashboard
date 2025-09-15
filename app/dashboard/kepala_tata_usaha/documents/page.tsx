@@ -1,6 +1,6 @@
 "use client"
 
-import DocumentManagement from "@/components/kepala-tata-usaha/document-management"
+import DocumentManagement from "@/fitur/administrasi/kepala-tata-usaha/document-management"
 import { motion } from "framer-motion"
 
 export default function DocumentsPage() {

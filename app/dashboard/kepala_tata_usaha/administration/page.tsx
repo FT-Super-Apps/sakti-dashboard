@@ -1,6 +1,6 @@
 "use client"
 
-import StaffManagementCard from "@/components/kepala-tata-usaha/staff-management-card"
+import StaffManagementCard from "@/fitur/administrasi/kepala-tata-usaha/staff-management-card"
 import { motion } from "framer-motion"
 
 export default function AdministrationPage() {

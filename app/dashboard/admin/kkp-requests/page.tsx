@@ -1,13 +1,13 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/utilitas/ui/tabs"
+import { Badge } from "@/utilitas/ui/badge"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/utilitas/ui/select"
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/utilitas/ui/table"
 import {
   CheckCircle2,
   FileText,
@@ -20,7 +20,7 @@ import {
   XCircle,
   ChevronDown,
 } from "lucide-react"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/utilitas/ui/avatar"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -28,9 +28,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { toast } from "@/components/ui/use-toast"
-import { Toaster } from "@/components/ui/toaster"
+} from "@/utilitas/ui/dropdown-menu"
+import { toast } from "@/utilitas/ui/use-toast"
+import { Toaster } from "@/utilitas/ui/toaster"
 import { useRole } from "@/context/role-context"
 import { useRouter } from "next/navigation"
 

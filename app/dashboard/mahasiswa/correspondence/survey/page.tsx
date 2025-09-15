@@ -1,13 +1,13 @@
 "use client"
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Badge } from "@/components/ui/badge"
-import { Checkbox } from "@/components/ui/checkbox"
+import { Card, CardContent, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Label } from "@/utilitas/ui/label"
+import { Textarea } from "@/utilitas/ui/textarea"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/utilitas/ui/select"
+import { Badge } from "@/utilitas/ui/badge"
+import { Checkbox } from "@/utilitas/ui/checkbox"
 import { motion } from "framer-motion"
 import {
   FileText,

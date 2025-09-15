@@ -1,4 +1,4 @@
-import DocumentVerification from "@/components/shared/document-verification"
+import DocumentVerification from "@/penyedia/shared/document-verification"
 
 export default function StaffTuVerificationPage() {
   return (

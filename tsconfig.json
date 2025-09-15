@@ -19,7 +19,16 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/fitur/*": ["./components/fitur/*"],
+      "@/tata-letak/*": ["./components/tata-letak/*"],
+      "@/penyedia/*": ["./components/penyedia/*"],
+      "@/utilitas/*": ["./components/utilitas/*"],
+      "@/komponen/*": ["./components/*"],
+      "@/lib/*": ["./lib/*"],
+      "@/types/*": ["./types/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/config/*": ["./config/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

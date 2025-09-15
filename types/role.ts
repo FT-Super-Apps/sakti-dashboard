@@ -2,16 +2,16 @@ export type Role =
   | "mahasiswa"
   | "dosen"
   | "prodi"
-  | "staff_tu"
+  | "staff-tata-usaha"
   | "dekan"
   | "admin"
 
-  | "laboratory_admin"
-  | "reading_room_admin"
-  | "admin_umum"
-  | "admin_keuangan"
+  | "admin-laboratorium"
+  | "admin-ruang-baca"
+  | "admin-umum"
+  | "admin-keuangan"
   | "gkm"
-  | "kepala_tata_usaha"
+  | "kepala-tata-usaha"
 
 export type DosenSubRole =
   | "dosen"
@@ -53,8 +53,8 @@ export const roleConfigs: Record<Role, RoleConfig> = {
     color: "text-purple-500",
     bgColor: "bg-purple-100",
   },
-  staff_tu: {
-    displayName: "Administrasi Prodi",
+  "staff-tata-usaha": {
+    displayName: "Staff Tata Usaha",
     description: "Administrative staff role with access to student records and administrative functions.",
     icon: "clipboard",
     color: "text-orange-500",
@@ -74,29 +74,29 @@ export const roleConfigs: Record<Role, RoleConfig> = {
     color: "text-gray-500",
     bgColor: "bg-gray-100",
   },
-  laboratory_admin: {
+  "admin-laboratorium": {
     displayName: "Admin Laboratorium",
     description: "Laboratory administrator role with access to lab management and scheduling.",
     icon: "flask",
     color: "text-indigo-500",
     bgColor: "bg-indigo-100",
   },
-  reading_room_admin: {
+  "admin-ruang-baca": {
     displayName: "Admin Ruang Baca",
     description: "Library administrator role with access to book management and borrowing records.",
     icon: "book",
     color: "text-teal-500",
     bgColor: "bg-teal-100",
   },
-  admin_umum: {
-    displayName: "Administrasi Umum",
+  "admin-umum": {
+    displayName: "Admin Umum",
     description: "General staff role with access to basic administrative functions.",
     icon: "users",
     color: "text-pink-500",
     bgColor: "bg-pink-100",
   },
-  admin_keuangan: {
-    displayName: "Administrasi Keuangan",
+  "admin-keuangan": {
+    displayName: "Admin Keuangan",
     description: "Finance administrator role with access to payment management and financial records.",
     icon: "dollar-sign",
     color: "text-emerald-500",
@@ -109,7 +109,7 @@ export const roleConfigs: Record<Role, RoleConfig> = {
     color: "text-blue-600",
     bgColor: "bg-blue-50",
   },
-  kepala_tata_usaha: {
+  "kepala-tata-usaha": {
     displayName: "Kepala Tata Usaha",
     description: "Head of Administrative Affairs with access to office management and administrative oversight.",
     icon: "crown",

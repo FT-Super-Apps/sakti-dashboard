@@ -1,4 +1,4 @@
-import RekomendasiJudul from "@/components/dosen/rekomendasi-judul"
+import RekomendasiJudul from "@/fitur/dosen/rekomendasi-judul"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {

@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from "react"
 import { useRouter, useParams } from "next/navigation"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Separator } from "@/components/ui/separator"
-import { Badge } from "@/components/ui/badge"
-import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import { Button } from "@/utilitas/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Separator } from "@/utilitas/ui/separator"
+import { Badge } from "@/utilitas/ui/badge"
+import { Avatar, AvatarFallback } from "@/utilitas/ui/avatar"
 import {
   Dialog,
   DialogContent,
@@ -14,10 +14,10 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog"
-import { Textarea } from "@/components/ui/textarea"
-import { useToast } from "@/components/ui/use-toast"
-import { Toaster } from "@/components/ui/toaster"
+} from "@/utilitas/ui/dialog"
+import { Textarea } from "@/utilitas/ui/textarea"
+import { useToast } from "@/utilitas/ui/use-toast"
+import { Toaster } from "@/utilitas/ui/toaster"
 import {
   FileText,
   CheckCircle,

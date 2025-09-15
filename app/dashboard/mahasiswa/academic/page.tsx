@@ -1,7 +1,7 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Progress } from "@/components/ui/progress"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Progress } from "@/utilitas/ui/progress"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/utilitas/ui/tabs"
 import { Award, BookOpen, Calendar, GraduationCap, FileText, Clock, Zap, Star, TrendingUp, Globe } from "lucide-react"
 import Link from "next/link"
 

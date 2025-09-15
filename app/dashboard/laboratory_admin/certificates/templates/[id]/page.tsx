@@ -2,12 +2,12 @@
 
 import { useState, useEffect } from "react"
 import { useRouter, useParams } from "next/navigation"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
-import { Separator } from "@/components/ui/separator"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Card, CardContent, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Badge } from "@/utilitas/ui/badge"
+import { Separator } from "@/utilitas/ui/separator"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/utilitas/ui/tabs"
 import {
   Award,
   Sparkles,
@@ -27,9 +27,9 @@ import {
   BookOpen,
   Zap
 } from "lucide-react"
-import CanvasCertificate from "@/components/certificates/canvas-certificate"
-import CertificateDownload from "@/components/certificates/certificate-download"
-import CertificatePreview from "@/components/certificates/certificate-preview"
+import CanvasCertificate from "@/fitur/sertifikat/certificates/canvas-certificate"
+import CertificateDownload from "@/fitur/sertifikat/certificates/certificate-download"
+import CertificatePreview from "@/fitur/sertifikat/certificates/certificate-preview"
 
 // Certificate templates dengan data yang lebih lengkap
 const certificateTemplates = [

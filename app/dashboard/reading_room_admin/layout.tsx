@@ -1,8 +1,8 @@
 "use client"
 
 import type React from "react"
-import RoleSidebar from "@/components/role/role-sidebar"
-import RoleMobileMenu from "@/components/role/role-mobile-menu"
+import RoleSidebar from "@/tata-letak/role/role-sidebar"
+import RoleMobileMenu from "@/tata-letak/role/role-mobile-menu"
 import { useAuth } from "@/context/auth-context"
 import { useRouter } from "next/navigation"
 import { useEffect } from "react"

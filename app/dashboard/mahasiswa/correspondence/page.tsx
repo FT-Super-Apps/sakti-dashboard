@@ -1,6 +1,6 @@
 "use client"
 
-import { MahasiswaCorrespondence } from "@/components/correspondence/mahasiswa-correspondence"
+import { MahasiswaCorrespondence } from "@/fitur/korespondensi/mahasiswa-correspondence"
 
 export default function CorrespondencePage() {
   return <MahasiswaCorrespondence />

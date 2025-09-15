@@ -1,4 +1,4 @@
-import StaffUmumRoleDescription from "@/components/admin-umum/role-description"
+import StaffUmumRoleDescription from "@/fitur/administrasi/admin-umum/role-description"
 
 export default function StaffUmumRoleDescriptionPage() {
   return (

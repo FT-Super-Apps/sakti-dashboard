@@ -3,11 +3,11 @@
 import { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
 import Link from "next/link"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Skeleton } from "@/components/ui/skeleton"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Badge } from "@/utilitas/ui/badge"
+import { Button } from "@/utilitas/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Skeleton } from "@/utilitas/ui/skeleton"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/utilitas/ui/tabs"
 import {
   ChevronLeft,
   Building,
@@ -30,8 +30,8 @@ import {
   Bookmark,
   FileSymlink,
 } from "lucide-react"
-import { mockStudentKkpRecords } from "@/components/kkp/prodi/mock-data"
-import type { KkpStatus, StudentKkpRecord } from "@/components/kkp/prodi/types"
+import { mockStudentKkpRecords } from "@/fitur/kkp/prodi/mock-data"
+import type { KkpStatus, StudentKkpRecord } from "@/fitur/kkp/prodi/types"
 
 export default function StudentKkpDetailPage() {
   const { id } = useParams<{ id: string }>()

@@ -1,4 +1,4 @@
-import { ExpenseTracking } from "@/components/dekan/vice-dean-2/expense-tracking"
+import { ExpenseTracking } from "@/fitur/dekan/vice-dean-2/expense-tracking"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {

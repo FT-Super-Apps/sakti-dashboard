@@ -1,4 +1,4 @@
-import { ViceDean2Dashboard } from "@/components/dekan/vice-dean-2/dashboard"
+import { ViceDean2Dashboard } from "@/fitur/dekan/vice-dean-2/dashboard"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {

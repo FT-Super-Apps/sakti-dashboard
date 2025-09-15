@@ -1,5 +1,5 @@
-import { KkpPlusGuidanceList } from "@/components/lecturer/kkp-plus-guidance-list"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { KkpPlusGuidanceList } from "@/fitur/dosen/lecturer/kkp-plus-guidance-list"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
 
 export default function KkpPlusGuidancePage() {
   return (

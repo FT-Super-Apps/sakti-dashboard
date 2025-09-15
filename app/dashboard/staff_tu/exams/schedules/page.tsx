@@ -1,4 +1,4 @@
-import { ExamScheduleManager } from "@/components/exam/exam-schedule-manager"
+import { ExamScheduleManager } from "@/fitur/ujian/exam-schedule-manager"
 
 export default function ExamSchedulesPage() {
   return (

@@ -1,4 +1,4 @@
-import StaffTuDocumentGeneration from "@/components/staff_tu/document-generation"
+import StaffTuDocumentGeneration from "@/fitur/administrasi/staff-tata-usaha/document-generation"
 
 export default function StaffTuDocumentGenerationPage() {
   return (

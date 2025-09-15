@@ -1,11 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import { KkpGuidanceList } from "@/components/lecturer/kkp-guidance-list"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
+import { KkpGuidanceList } from "@/fitur/dosen/lecturer/kkp-guidance-list"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Badge } from "@/utilitas/ui/badge"
 import { motion } from "framer-motion"
 import {
   BookOpen,

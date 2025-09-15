@@ -1,11 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/utilitas/ui/table"
+import { Badge } from "@/utilitas/ui/badge"
 import { 
   CheckCircle, 
   Search, 
@@ -23,7 +23,7 @@ import {
 import {
   RegistrationDetailDialog,
   type LabRegistration,
-} from "@/components/laboratory/admin/registration-detail-dialog"
+} from "@/fitur/laboratorium/laboratory/admin/registration-detail-dialog"
 
 export default function LabRegistrationsPage() {
   const [selectedRegistration, setSelectedRegistration] = useState<LabRegistration | null>(null)

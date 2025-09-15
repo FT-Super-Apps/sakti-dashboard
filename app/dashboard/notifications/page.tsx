@@ -2,12 +2,12 @@
 
 import { useState } from "react"
 import { useNotifications } from "@/context/notification-context"
-import { NotificationCard } from "@/components/ui/notification-card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { NotificationCard } from "@/utilitas/ui/notification-card"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/utilitas/ui/tabs"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
 import { Bell, Search, Check, Users, Filter } from "lucide-react"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/utilitas/ui/select"
 
 export default function NotificationsPage() {
   const { notifications, markAsRead, markAllAsRead, acceptInvitation, declineInvitation } = useNotifications()

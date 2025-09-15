@@ -1,12 +1,12 @@
 'use client'
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Badge } from "@/components/ui/badge"
-import { Progress } from "@/components/ui/progress"
+import { Card, CardContent, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Label } from "@/utilitas/ui/label"
+import { Textarea } from "@/utilitas/ui/textarea"
+import { Badge } from "@/utilitas/ui/badge"
+import { Progress } from "@/utilitas/ui/progress"
 import { motion } from "framer-motion"
 import { useState } from "react"
 import {

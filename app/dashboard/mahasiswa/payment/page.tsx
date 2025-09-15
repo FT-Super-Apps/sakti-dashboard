@@ -1,7 +1,7 @@
 import { Suspense } from "react"
 import type { Metadata } from "next"
 import PaymentDashboard from "@/components/payment/payment-dashboard"
-import { Skeleton } from "@/components/ui/skeleton"
+import { Skeleton } from "@/utilitas/ui/skeleton"
 
 export const metadata: Metadata = {
   title: "Pembayaran | Dashboard Mahasiswa",

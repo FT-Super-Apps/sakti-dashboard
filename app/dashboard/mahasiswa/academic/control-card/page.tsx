@@ -1,5 +1,5 @@
-import AcademicControlCard from "@/components/academic/control-card"
-import { Toaster } from "@/components/ui/toaster"
+import AcademicControlCard from "@/fitur/akademik/academic/control-card"
+import { Toaster } from "@/utilitas/ui/toaster"
 
 export const metadata = {
   title: "Kartu Kontrol Akademik",

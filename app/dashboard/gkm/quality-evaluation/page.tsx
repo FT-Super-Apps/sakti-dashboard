@@ -1,5 +1,5 @@
 "use client"
-import EvaluationMetrics from "@/components/gkm/evaluation-metrics"
+import EvaluationMetrics from "@/fitur/gkm/evaluation-metrics"
 import { motion } from "framer-motion"
 export default function QualityEvaluationPage() {
   return (

@@ -1,4 +1,4 @@
-import { Skeleton } from "@/components/ui/skeleton"
+import { Skeleton } from "@/utilitas/ui/skeleton"
 
 export default function PracticumMaterialsLoading() {
   return (

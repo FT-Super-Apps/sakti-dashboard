@@ -1,4 +1,4 @@
-import ExamRequirementsManagement from "@/components/exam/prodi/exam-requirements-management"
+import ExamRequirementsManagement from "@/fitur/ujian/prodi/exam-requirements-management"
 
 export default function ExamRequirementsPage() {
   return <ExamRequirementsManagement />

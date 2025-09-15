@@ -1,4 +1,4 @@
-import AdminDashboard from "@/components/dashboards/admin-dashboard"
+import AdminDashboard from "@/components/fitur/dashboard/role-specific/admin-dashboard"
 
 export default function AdminDashboardPage() {
   return <AdminDashboard />

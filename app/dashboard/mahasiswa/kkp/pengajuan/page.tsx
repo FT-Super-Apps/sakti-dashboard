@@ -1,10 +1,10 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Badge } from "@/utilitas/ui/badge"
 import {
   Building,
   Search,
@@ -19,7 +19,7 @@ import {
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { LocationType } from "@/components/location-manager"
-import TeamMemberSelector from "@/components/team-member-selector"
+import { TeamMemberSelector } from "@/penyedia/common"
 import {
   Dialog,
   DialogContent,
@@ -27,10 +27,10 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Separator } from "@/components/ui/separator"
-import { Label } from "@/components/ui/label"
+} from "@/utilitas/ui/dialog"
+import { Avatar, AvatarFallback, AvatarImage } from "@/utilitas/ui/avatar"
+import { Separator } from "@/utilitas/ui/separator"
+import { Label } from "@/utilitas/ui/label"
 
 // SubLocation interface
 interface SubLocation {

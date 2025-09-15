@@ -1,6 +1,6 @@
 import type { ReactNode } from "react"
-import RoleSidebar from "@/components/role/role-sidebar"
-import RoleMobileMenu from "@/components/role/role-mobile-menu"
+import RoleSidebar from "@/tata-letak/role/role-sidebar"
+import RoleMobileMenu from "@/tata-letak/role/role-mobile-menu"
 
 export default function KepalaTataUsahaLayout({ children }: { children: ReactNode }) {
   return (

@@ -14,10 +14,10 @@ import {
   Sparkles,
   Users
 } from "lucide-react"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Avatar, AvatarFallback, AvatarImage } from "@/utilitas/ui/avatar"
+import { Badge } from "@/utilitas/ui/badge"
+import { Button } from "@/utilitas/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/utilitas/ui/card"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -25,9 +25,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Input } from "@/components/ui/input"
-import { Progress } from "@/components/ui/progress"
+} from "@/utilitas/ui/dropdown-menu"
+import { Input } from "@/utilitas/ui/input"
+import { Progress } from "@/utilitas/ui/progress"
 
 // Mock data for major tasks
 const majorTasks = [

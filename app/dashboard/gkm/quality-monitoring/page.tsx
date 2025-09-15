@@ -1,6 +1,6 @@
 "use client"
-import QualityMonitoringCard from "@/components/gkm/quality-monitoring-card"
-import AccreditationStatus from "@/components/gkm/accreditation-status"
+import QualityMonitoringCard from "@/fitur/gkm/quality-monitoring-card"
+import AccreditationStatus from "@/fitur/gkm/accreditation-status"
 import { motion } from "framer-motion"
 import { 
   GraduationCap, 

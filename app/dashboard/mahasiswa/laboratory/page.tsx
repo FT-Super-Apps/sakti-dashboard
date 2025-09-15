@@ -1,8 +1,8 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { AvailableLabsTab } from "@/components/laboratory/tabs/available-labs-tab"
-import { MyLabsTab } from "@/components/laboratory/tabs/my-labs-tab"
-import { CompletedLabsTab } from "@/components/laboratory/tabs/completed-labs-tab"
-import { RegistrationHistoryTab } from "@/components/laboratory/tabs/registration-history-tab"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/utilitas/ui/tabs"
+import { AvailableLabsTab } from "@/fitur/laboratorium/laboratory/tabs/available-labs-tab"
+import { MyLabsTab } from "@/fitur/laboratorium/laboratory/tabs/my-labs-tab"
+import { CompletedLabsTab } from "@/fitur/laboratorium/laboratory/tabs/completed-labs-tab"
+import { RegistrationHistoryTab } from "@/fitur/laboratorium/laboratory/tabs/registration-history-tab"
 import { BeakerIcon, BookOpenIcon, CheckCircleIcon, ReceiptIcon } from "lucide-react"
 
 export default function LaboratoryPage() {

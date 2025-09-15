@@ -20,11 +20,11 @@ import {
 } from "lucide-react"
 import Image from "next/image"
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Badge } from "@/components/ui/badge"
+import { Button } from "@/utilitas/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Input } from "@/utilitas/ui/input"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/utilitas/ui/tabs"
+import { Badge } from "@/utilitas/ui/badge"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -32,11 +32,11 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Progress } from "@/components/ui/progress"
-import { InventoryItemDialog } from "@/components/laboratory/admin/inventory-item-dialog"
-import { AddInventoryDialog } from "@/components/laboratory/admin/add-inventory-dialog"
-import { OrderSuppliesDialog } from "@/components/laboratory/admin/order-supplies-dialog"
+} from "@/utilitas/ui/dropdown-menu"
+import { Progress } from "@/utilitas/ui/progress"
+import { InventoryItemDialog } from "@/fitur/laboratorium/laboratory/admin/inventory-item-dialog"
+import { AddInventoryDialog } from "@/fitur/laboratorium/laboratory/admin/add-inventory-dialog"
+import { OrderSuppliesDialog } from "@/fitur/laboratorium/laboratory/admin/order-supplies-dialog"
 
 // Mock data for inventory items
 const inventoryItems = [

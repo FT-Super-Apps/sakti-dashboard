@@ -1,4 +1,4 @@
-import { ExamsDashboard } from "@/components/staff_tu/exams-dashboard"
+import { ExamsDashboard } from "@/fitur/administrasi/staff-tata-usaha/exams-dashboard"
 
 export default function FinalExamsPage() {
   return (

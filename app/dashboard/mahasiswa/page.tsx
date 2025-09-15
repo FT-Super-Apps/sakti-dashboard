@@ -1,10 +1,10 @@
 'use client'
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Progress } from "@/components/ui/progress"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/utilitas/ui/tabs"
+import { Badge } from "@/utilitas/ui/badge"
+import { Button } from "@/utilitas/ui/button"
+import { Progress } from "@/utilitas/ui/progress"
 import {
   CalendarDays,
   GraduationCap,
@@ -17,7 +17,7 @@ import {
   CheckCircle2,
   AlertCircle,
 } from "lucide-react"
-import MahasiswaDashboard from "@/components/dashboards/mahasiswa-dashboard"
+import MahasiswaDashboard from "@/fitur/dashboard/role-specific/mahasiswa-dashboard"
 import { useI18n } from '@/lib/i18n'
 
 export default function MahasiswaPage() {

@@ -1,4 +1,4 @@
-import StudentExamDashboard from "@/components/exam/student/student-exam-dashboard"
+import StudentExamDashboard from "@/fitur/ujian/student/student-exam-dashboard"
 
 export default function StudentExamsPage() {
   return <StudentExamDashboard />

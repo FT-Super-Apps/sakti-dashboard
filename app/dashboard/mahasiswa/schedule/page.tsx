@@ -1,4 +1,4 @@
-import { ExamScheduleDashboard } from "@/components/exam/student/exam-schedule-dashboard"
+import { ExamScheduleDashboard } from "@/fitur/ujian/student/exam-schedule-dashboard"
 
 export default function SchedulePage() {
   return <ExamScheduleDashboard />

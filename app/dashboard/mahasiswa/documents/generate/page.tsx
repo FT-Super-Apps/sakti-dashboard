@@ -1,12 +1,12 @@
 'use client'
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "@/utilitas/ui/card"
+import { Button } from "@/utilitas/ui/button"
+import { Input } from "@/utilitas/ui/input"
+import { Label } from "@/utilitas/ui/label"
+import { Textarea } from "@/utilitas/ui/textarea"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/utilitas/ui/select"
+import { Badge } from "@/utilitas/ui/badge"
 import { motion } from "framer-motion"
 import { useState } from "react"
 import {
@@ -26,7 +26,7 @@ import {
 } from "lucide-react"
 import { DocumentGenerator, DocumentData, DocumentTemplate, DocumentField } from '@/lib/document-generator'
 import { useI18n } from '@/lib/i18n'
-import { useToast } from "@/components/ui/use-toast"
+import { useToast } from "@/utilitas/ui/use-toast"
 
 interface FormData {
   [key: string]: string | string[]

@@ -1,4 +1,4 @@
-import LaboratoryAdminDashboard from "@/components/dashboards/laboratory-admin-dashboard"
+import LaboratoryAdminDashboard from "@/fitur/dashboard/role-specific/laboratory-admin-dashboard"
 
 export default function LaboratoryAdminDashboardPage() {
   return <LaboratoryAdminDashboard />

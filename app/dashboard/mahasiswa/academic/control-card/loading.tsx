@@ -1,5 +1,5 @@
-import { Skeleton } from "@/components/ui/skeleton"
-import { Card, CardContent } from "@/components/ui/card"
+import { Skeleton } from "@/utilitas/ui/skeleton"
+import { Card, CardContent } from "@/utilitas/ui/card"
 
 export default function ControlCardLoading() {
   return (

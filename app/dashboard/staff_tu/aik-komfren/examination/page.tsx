@@ -1,4 +1,4 @@
-import { AikKomfrenExamination } from "@/components/staff_tu/aik-komfren/examination"
+import { AikKomfrenExamination } from "@/fitur/administrasi/staff-tata-usaha/aik-komfren/examination"
 
 export default function AikKomfrenExaminationPage() {
   return <AikKomfrenExamination />

@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { ProdiExamApprovalDashboard } from "@/components/exam/prodi/prodi-exam-approval-dashboard"
+import { ProdiExamApprovalDashboard } from "@/fitur/ujian/prodi/prodi-exam-approval-dashboard"
 
 export const metadata: Metadata = {
   title: "Persetujuan Ujian",

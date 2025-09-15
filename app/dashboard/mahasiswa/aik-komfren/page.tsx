@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { AIKKomfrenDashboard } from "@/components/aik-komfren/dashboard"
+import { AIKKomfrenDashboard } from "@/fitur/aik-komfren/dashboard"
 
 export const metadata: Metadata = {
   title: "AIK Komfren Exam | Student Dashboard",

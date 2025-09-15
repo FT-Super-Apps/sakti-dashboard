@@ -1,7 +1,7 @@
 import { Suspense } from "react"
 import type { Metadata } from "next"
-import { CorrespondenceStaffDashboard } from "@/components/correspondence/correspondence-staff-dashboard"
-import { SkeletonCorrespondenceDashboard } from "@/components/correspondence/skeleton-correspondence-dashboard"
+import { CorrespondenceStaffDashboard } from "@/fitur/korespondensi/correspondence-staff-dashboard"
+import { SkeletonCorrespondenceDashboard } from "@/fitur/korespondensi/skeleton-correspondence-dashboard"
 
 export const metadata: Metadata = {
   title: "Manajemen Layanan Surat | Admin Prodi",

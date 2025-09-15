@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { StudentParticipation } from "@/components/laboratory/admin/reports/student-participation"
+import { StudentParticipation } from "@/fitur/laboratorium/laboratory/admin/reports/student-participation"
 import { BarChart3, Users, TrendingUp, FileText } from "lucide-react"
 
 export const metadata: Metadata = {
